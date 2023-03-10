@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.clock{
+    width:max-content;
+    margin: auto;
+}
+
+.clock img{
+    width: 50vw;
+    height: 50vw;
+}
+
+#hourhand{
+    position: absolute;
+    right: 34.37vw;
+    top: 10.5vw;
+    width: 30vw;
+    height: 29vw;
+    transform: rotate(-90deg);
+}
+
+
+#minutehand {
+    position: absolute;
+    right: 27.9vw;
+    top: 6.5vw;
+    width: 43vw;
+    height: 37vw;
+    
+}
+
+#secondhand {
+    position: absolute;
+    right: 27.9vw;
+    top: 6.5vw;
+    width: 43vw;
+    height: 37vw;
+    
+}
+
+#dot{
+    position: absolute;
+    right: 48.4vw;
+    top: 24vw;
+    width: 2vw;
+    height: 2vw;
+}
+
+#ring{
+    position: absolute;
+    right: 47.9vw;
+    top: 23.4vw;
+    width: 3vw;
+    height: 3vw;
+}
