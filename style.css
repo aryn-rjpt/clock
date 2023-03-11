@@ -29,6 +29,7 @@
     top: 6.5vw;
     width: 43vw;
     height: 37vw;
+    transform: rotate(-90deg);
     
 }
 
@@ -38,6 +39,7 @@
     top: 6.5vw;
     width: 43vw;
     height: 37vw;
+    transform: rotate(-90deg);
     
 }
 
@@ -55,4 +57,18 @@
     top: 23.4vw;
     width: 3vw;
     height: 3vw;
+}
+
+.logos{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logos img{
+    margin: 3vw 4vw;
+    padding: 3vw 4vw;
+    width: 5vw;
+    height: 5vw;
+    opacity: 0.7;
 }
