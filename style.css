@@ -1,74 +1,100 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-.clock{
-    width:max-content;
+body {
+    position: relative;
+    display: flex;
+    padding-top: 2vw;
+    flex-direction: column;
+    align-items: center;
+}
+
+.clock {
+    width: max-content;
     margin: auto;
+    background-color: white;
+    border-radius: 50%;
 }
 
-.clock img{
-    width: 50vw;
-    height: 50vw;
+.clock img {
+    width: 20vw;
+    height: 20vw;
 }
 
-#hourhand{
+#hourhand {
     position: absolute;
-    right: 34.37vw;
-    top: 10.5vw;
-    width: 30vw;
-    height: 29vw;
+    right: 41.52vw;
+    top: 2.98vw;
+    width: 17vw;
+    height: 18vw;
     transform: rotate(-90deg);
 }
 
 
 #minutehand {
     position: absolute;
-    right: 27.9vw;
-    top: 6.5vw;
-    width: 43vw;
-    height: 37vw;
+    right: 39.93vw;
+    top: 2.5vw;
+    width: 20vw;
+    height: 19vw;
     transform: rotate(-90deg);
-    
 }
 
 #secondhand {
     position: absolute;
-    right: 27.9vw;
-    top: 6.5vw;
-    width: 43vw;
-    height: 37vw;
+    right: 44vw;
+    top: 3.1vw;
+    width: 12vw;
+    height: 18vw;
     transform: rotate(-90deg);
-    
 }
 
-#dot{
+#dot {
     position: absolute;
-    right: 48.4vw;
-    top: 24vw;
-    width: 2vw;
-    height: 2vw;
+    right: 48.9vw;
+    top: 9.5vw;
+    width: 1vw;
+    height: 1vw;
 }
 
-#ring{
+.logos {
     position: absolute;
-    right: 47.9vw;
-    top: 23.5vw;
-    width: 3vw;
-    height: 3vw;
-}
-
-.logos{
-    display:flex;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    right: 0;
+    top: 0;
 }
 
-.logos img{
-    margin: 3vw 4vw;
-    padding: 3vw 4vw;
-    width: 5vw;
-    height: 5vw;
+.logos img {
+    margin: 3vw 3vw;
+    padding: 2vw 2vw;
+    width: 4vw;
+    height: 4vw;
     opacity: 0.7;
+    transition: all 0.7s ease;
+    border-radius: 2vw;
+}
+
+.logos img:hover {
+    opacity: 1;
+    border-radius: 2vw;
+    background: linear-gradient(145deg, #f0f0f0, #cacaca);
+    box-shadow: 5px 9px 19px #afafaf, -5px -9px 19px #ffffff;
+
+}
+
+.tree {
+    position: absolute;
+    z-index: -1;
+    right: 22.5vw;
+    top: -2.3vw;
+}
+
+.tree img {
+    width: 52vw;
+    height: 47vw;
 }
